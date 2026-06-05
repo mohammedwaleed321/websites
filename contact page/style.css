@@ -1,0 +1,77 @@
+body {
+    background-image: url('./contact-page-master/resources/background@2x.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+.container {
+    justify-content: center;
+    align-items: center;
+}
+.intro {
+    width: 300px;
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+.form-box {
+    margin: 70px auto;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    color: white;
+}
+.forms {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+input{
+    width: 230px;
+    height: 34px;
+    border-radius: 10px;
+    border: 1px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.form {
+    margin: 16px;
+}
+select {
+    width: 240px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+textarea {
+    padding: 5px;
+    width: 510px;
+    height: 140px;
+    border-radius: 10px;
+}
+.submit {
+    margin: 16px;
+}
+input[type="submit"] {
+    width: 510px;
+    color: blue;
+}
+@media(max-width: 600px) {
+    .form-box {
+        width: 400px;
+        flex-direction: column;
+    }
+    input[type="submit"] {
+        width: 300px;
+    }
+    textarea {
+        width: 300px;
+    }
+    .forms {
+        padding-left: 50px;
+    }
+}
