@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    width:480px;
+    margin: 30px 0;
+}
+.title h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.lists {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.list1, .list2, .list3{
+    display: flex;
+    flex-direction: row;
+    
+}
+.list1-description, .list2-description, .list3-description {
+    justify-content: center;
+    padding: 40px;
+}
+h3 {
+    color: grey;
+}
+img {
+    border-radius: 15px;
+    margin: 20px;
+}
+@media (max-width: 600px) {
+    .list1, .list2, .list3 {
+        display: block;
+    }
+}
